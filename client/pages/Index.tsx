@@ -217,32 +217,6 @@ export default function Index() {
         </div>
       </Section>
 
-      {/* Achievements Section */}
-      <Section
-        id="achievements"
-        title="Achievements & Recognition"
-        subtitle="Awards and milestones"
-      >
-        <div className="grid md:grid-cols-3 gap-6">
-          {portfolioData.achievements.map((achievement) => (
-            <div
-              key={achievement.id}
-              className="bg-gradient-to-br from-primary/5 to-secondary/5 border border-primary/20 rounded-lg p-6"
-            >
-              <p className="text-sm font-semibold text-primary mb-2">
-                {achievement.year}
-              </p>
-              <h4 className="text-lg font-bold text-foreground mb-3">
-                {achievement.title}
-              </h4>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                {achievement.description}
-              </p>
-            </div>
-          ))}
-        </div>
-      </Section>
-
       {/* Contact Section */}
       <Section
         id="contact"
