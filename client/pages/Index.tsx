@@ -191,19 +191,11 @@ export default function Index() {
               category="Programming Languages"
               skills={portfolioData.skills.languages}
             />
-            <SkillGroup
-              category="Frameworks & Libraries"
-              skills={portfolioData.skills.frameworks}
-            />
           </div>
           <div className="space-y-8">
             <SkillGroup
               category="Developer Tools"
               skills={portfolioData.skills.tools}
-            />
-            <SkillGroup
-              category="Specializations"
-              skills={portfolioData.skills.technologies}
             />
           </div>
         </div>
