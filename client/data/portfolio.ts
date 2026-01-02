@@ -79,16 +79,11 @@ export const portfolioData = {
   ],
 
   skills: {
-    languages: ["Python", "JavaScript", "HTML", "CSS", "SQL"],
-    frameworks: ["TensorFlow", "PyTorch", "scikit-learn", "React", "Node.js"],
-    tools: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Docker"],
-    technologies: ["Machine Learning", "Computer Vision", "Neural Networks", "NLP", "Data Analysis"],
+    languages: ["Python", "JavaScript", "HTML", "CSS"],
+    tools: ["Git", "VS Code", "Jupyter Notebook"],
     competencies: [
-      "Algorithm Design",
       "Problem Solving",
       "Automation",
-      "Agile Development",
-      "Technical Documentation",
     ],
   },
 
