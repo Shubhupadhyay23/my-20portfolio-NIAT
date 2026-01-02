@@ -205,7 +205,7 @@ export default function Index() {
             Core Competencies
           </h3>
           <div className="flex flex-wrap gap-3">
-            {portfolioData.skills.competencies.map((comp) => (
+            {portfolioData.skills.competencies && portfolioData.skills.competencies.map((comp) => (
               <Badge
                 key={comp}
                 className="bg-gradient-to-r from-primary/10 to-secondary/10 text-foreground border-primary/30 px-4 py-2 text-sm font-medium"
