@@ -67,7 +67,7 @@ export const portfolioData = {
     {
       id: "2",
       title: "Web Development Projects",
-      tags: ["HTML", "CSS", "JavaScript", "Python"],
+      tags: ["HTML", "css", "JavaScript", "Python"],
       year: "2024",
       description:
         "Built responsive web applications with modern UI/UX principles and cross-browser compatibility.",
