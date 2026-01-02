@@ -56,9 +56,9 @@ export default function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com"
-                target="_blank"
                 rel="noopener noreferrer"
+                href="https://github.com/Shubhupadhyay23"
+                target="_blank"
                 className="p-2 bg-muted hover:bg-primary/10 rounded-lg text-muted-foreground hover:text-primary transition-all"
               >
                 <Github className="w-5 h-5" />
