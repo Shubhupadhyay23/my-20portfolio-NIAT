@@ -88,6 +88,8 @@ export default function Index() {
             </div>
           </div>
         </div>
+
+        <ImageCarousel />
       </section>
 
       {/* About Section */}
