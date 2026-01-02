@@ -6,6 +6,10 @@ interface SkillGroupProps {
 }
 
 export default function SkillGroup({ category, skills }: SkillGroupProps) {
+  if (!skills || skills.length === 0) {
+    return null;
+  }
+
   return (
     <div className="space-y-4">
       <h3 className="text-lg font-semibold text-foreground">{category}</h3>
