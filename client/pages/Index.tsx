@@ -82,13 +82,7 @@ export default function Index() {
                 JavaScript
               </Badge>
               <Badge variant="secondary" className="px-4 py-2">
-                React
-              </Badge>
-              <Badge variant="secondary" className="px-4 py-2">
-                Machine Learning
-              </Badge>
-              <Badge variant="secondary" className="px-4 py-2">
-                Computer Vision
+                <p>html</p>
               </Badge>
             </div>
           </div>
