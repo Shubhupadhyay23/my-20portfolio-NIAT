@@ -5,6 +5,7 @@ import Section from "@/components/Section";
 import ProjectCard from "@/components/ProjectCard";
 import ExperienceCard from "@/components/ExperienceCard";
 import SkillGroup from "@/components/SkillGroup";
+import ImageCarousel from "@/components/ImageCarousel";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Download, Mail } from "lucide-react";
