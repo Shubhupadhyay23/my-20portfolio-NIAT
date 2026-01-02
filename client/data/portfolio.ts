@@ -53,7 +53,7 @@ export const portfolioData = {
     {
       id: "1",
       title: "Autonomous Driverless Car",
-      tags: ["Python", "Computer Vision", "Machine Learning", "Arduino"],
+      tags: ["Arduino Ide", "servo", "ultasonic sensor", "Arduino"],
       year: "2024",
       description:
         "Designed and developed a self-driving car prototype for State Science Exhibition using computer vision and ML algorithms.",
