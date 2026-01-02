@@ -99,7 +99,7 @@ export const portfolioData = {
     {
       id: "2",
       platform: "GitHub",
-      url: "https://github.com",
+      url: "https://github.com/Shubhupadhyay23",
       icon: "Github",
     },
     {
