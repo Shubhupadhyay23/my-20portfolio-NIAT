@@ -35,7 +35,7 @@ export const portfolioData = {
   experience: [
     {
       id: "1",
-      title: "Software Engineering Intern",
+      title: "YIIP",
       company: "Scaler",
       duration: "June 2024 – September 2024",
       location: "Bengaluru, India",
