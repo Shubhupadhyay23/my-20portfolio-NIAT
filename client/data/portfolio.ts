@@ -87,26 +87,7 @@ export const portfolioData = {
     ],
   },
 
-  achievements: [
-    {
-      id: "1",
-      title: "State Science Fair Winner",
-      description: "Recognized for innovative driverless car project demonstrating advanced AI/ML implementation",
-      year: "2024",
-    },
-    {
-      id: "2",
-      title: "DevFest 2025 Belgaum Participant",
-      description: "Attended premier Google Developer Group event, engaged with latest tech trends",
-      year: "2025",
-    },
-    {
-      id: "3",
-      title: "YIIC 2.0 (Young Innovators in Computing)",
-      description: "Selected participant showcasing innovation in technology solutions",
-      year: "2025",
-    },
-  ],
+  achievements: [],
 
   socialLinks: [
     {
