@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 
 interface SkillGroupProps {
   category: string;
-  skills: string[];
+  skills?: string[];
 }
 
 export default function SkillGroup({ category, skills }: SkillGroupProps) {
