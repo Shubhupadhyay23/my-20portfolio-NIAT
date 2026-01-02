@@ -28,7 +28,8 @@ const NotFound = () => {
             Page Not Found
           </h1>
           <p className="text-lg text-muted-foreground mb-8">
-            Oops! The page you're looking for doesn't exist. Let's get you back on track.
+            Oops! The page you're looking for doesn't exist. Let's get you back
+            on track.
           </p>
           <a href="/">
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">

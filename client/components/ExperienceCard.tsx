@@ -35,7 +35,9 @@ export default function ExperienceCard({
         </div>
       </div>
 
-      <p className="text-muted-foreground mb-6 leading-relaxed">{description}</p>
+      <p className="text-muted-foreground mb-6 leading-relaxed">
+        {description}
+      </p>
 
       {highlights.length > 0 && (
         <div>

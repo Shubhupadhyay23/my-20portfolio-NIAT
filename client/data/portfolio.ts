@@ -19,14 +19,16 @@ export const portfolioData = {
     {
       id: "2",
       institution: "Ajeenkya D Y Patil University",
-      degree: "Bachelor of Technology in Artificial Intelligence & Machine Learning",
+      degree:
+        "Bachelor of Technology in Artificial Intelligence & Machine Learning",
       duration: "July 2025 – May 2029",
       location: "India",
     },
     {
       id: "3",
       institution: "Little Angel School",
-      degree: "Higher Secondary Certificate (12th Grade) - Physics, Chemistry, Mathematics",
+      degree:
+        "Higher Secondary Certificate (12th Grade) - Physics, Chemistry, Mathematics",
       duration: "April 2023 – April 2024",
       location: "India",
     },
@@ -81,10 +83,7 @@ export const portfolioData = {
   skills: {
     languages: ["Python", "JavaScript", "HTML", "CSS"],
     tools: ["Git", "VS Code", "Jupyter Notebook"],
-    competencies: [
-      "Problem Solving",
-      "Automation",
-    ],
+    competencies: ["Problem Solving", "Automation"],
   },
 
   achievements: [],

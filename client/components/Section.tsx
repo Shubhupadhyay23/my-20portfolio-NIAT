@@ -16,10 +16,7 @@ export default function Section({
   className = "",
 }: SectionProps) {
   return (
-    <section
-      id={id}
-      className={`py-16 sm:py-24 scroll-mt-20 ${className}`}
-    >
+    <section id={id} className={`py-16 sm:py-24 scroll-mt-20 ${className}`}>
       <div className="container max-w-6xl mx-auto px-4 sm:px-6">
         <div className="mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-3">

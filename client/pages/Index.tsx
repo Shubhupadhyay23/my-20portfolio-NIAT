@@ -145,9 +145,7 @@ export default function Index() {
                 <p className="text-primary font-semibold mb-1">
                   {edu.institution}
                 </p>
-                <p className="text-sm text-muted-foreground">
-                  {edu.duration}
-                </p>
+                <p className="text-sm text-muted-foreground">{edu.duration}</p>
               </div>
             ))}
           </div>
@@ -208,14 +206,15 @@ export default function Index() {
             Core Competencies
           </h3>
           <div className="flex flex-wrap gap-3">
-            {portfolioData.skills.competencies && portfolioData.skills.competencies.map((comp) => (
-              <Badge
-                key={comp}
-                className="bg-gradient-to-r from-primary/10 to-secondary/10 text-foreground border-primary/30 px-4 py-2 text-sm font-medium"
-              >
-                {comp}
-              </Badge>
-            ))}
+            {portfolioData.skills.competencies &&
+              portfolioData.skills.competencies.map((comp) => (
+                <Badge
+                  key={comp}
+                  className="bg-gradient-to-r from-primary/10 to-secondary/10 text-foreground border-primary/30 px-4 py-2 text-sm font-medium"
+                >
+                  {comp}
+                </Badge>
+              ))}
           </div>
         </div>
       </Section>
@@ -249,11 +248,7 @@ export default function Index() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button
-                size="lg"
-                variant="outline"
-                className="w-full sm:w-auto"
-              >
+              <Button size="lg" variant="outline" className="w-full sm:w-auto">
                 Connect on LinkedIn
               </Button>
             </a>

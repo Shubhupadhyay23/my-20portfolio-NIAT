@@ -29,7 +29,9 @@ export default function ProjectCard({
         </span>
       </div>
 
-      <p className="text-muted-foreground mb-6 leading-relaxed">{description}</p>
+      <p className="text-muted-foreground mb-6 leading-relaxed">
+        {description}
+      </p>
 
       {achievement && (
         <div className="mb-6 p-4 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg flex items-start gap-3 border border-primary/20">

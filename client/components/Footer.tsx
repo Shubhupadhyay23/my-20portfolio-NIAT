@@ -16,8 +16,8 @@ export default function Footer() {
               Shubham Upadhyay
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Full-stack developer passionate about building innovative solutions
-              with AI/ML and modern web technologies.
+              Full-stack developer passionate about building innovative
+              solutions with AI/ML and modern web technologies.
             </p>
           </div>
 
