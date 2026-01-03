@@ -213,11 +213,11 @@ export default function Index() {
             tech, feel free to get in touch.
           </p>
 
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
             <a href="mailto:ubhupendra90@gmail.com">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground w-full sm:w-auto"
+                className="bg-foreground hover:bg-accent text-background rounded-full px-8 text-base font-medium transition-colors w-full sm:w-auto"
               >
                 <Mail className="mr-2 w-4 h-4" />
                 Send Me an Email
@@ -228,7 +228,11 @@ export default function Index() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" variant="outline" className="w-full sm:w-auto">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-foreground text-foreground hover:bg-muted rounded-full px-8 text-base font-medium w-full sm:w-auto"
+              >
                 Connect on LinkedIn
               </Button>
             </a>
