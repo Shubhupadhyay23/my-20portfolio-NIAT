@@ -8,8 +8,8 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gradient-to-b from-background to-muted/30 border-t border-border">
-      <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <footer className="bg-white border-t border-border">
+      <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div>
             <h3 className="text-lg font-bold text-foreground mb-4">
