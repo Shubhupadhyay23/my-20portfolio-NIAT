@@ -25,66 +25,46 @@ export default function Index() {
       <Header />
 
       {/* Hero Section */}
-      <section
-        id="hero"
-        className="relative py-20 sm:py-32 overflow-hidden scroll-mt-20"
-      >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-secondary/5 pointer-events-none" />
-
-        <div className="container max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
-          <div className="max-w-3xl">
-            <div className="mb-6 flex items-center gap-2">
-              <div className="w-2 h-2 bg-primary rounded-full" />
-              <p className="text-sm font-medium text-primary">
-                Welcome to my portfolio
-              </p>
-            </div>
-
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Hey, I'm{" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                Shubham
-              </span>
+      <section id="hero" className="scroll-mt-20 bg-white">
+        <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-28 sm:py-40">
+          <div className="max-w-2xl">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold text-foreground mb-8 leading-tight">
+              Full-Stack Developer & AI/ML Specialist
             </h1>
 
-            <p className="text-xl sm:text-2xl text-muted-foreground mb-8 leading-relaxed">
-              Full-stack developer & AI/ML enthusiast building innovative
-              solutions with modern technologies. Let's create something amazing
-              together.
+            <p className="text-lg sm:text-xl text-muted-foreground mb-12 leading-relaxed max-w-xl">
+              Designing and building innovative solutions with cutting-edge technologies. Transforming ideas into elegant, scalable applications.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Button
                 size="lg"
-                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                className="bg-foreground hover:bg-accent text-background rounded-full px-8 text-base font-medium transition-colors"
                 onClick={() => {
                   const element = document.getElementById("projects");
                   element?.scrollIntoView({ behavior: "smooth" });
                 }}
               >
-                View My Work
-                <ArrowRight className="ml-2 w-4 h-4" />
+                Explore My Work
               </Button>
               <Button
                 size="lg"
                 variant="outline"
+                className="border-foreground text-foreground hover:bg-muted rounded-full px-8 text-base font-medium"
                 onClick={handleDownloadResume}
               >
-                <Download className="w-4 h-4 mr-2" />
                 Download Resume
               </Button>
             </div>
 
-            <div className="mt-12 flex flex-wrap gap-3">
-              <Badge variant="secondary" className="px-4 py-2">
-                Python
-              </Badge>
-              <Badge variant="secondary" className="px-4 py-2">
-                JavaScript
-              </Badge>
-              <Badge variant="secondary" className="px-4 py-2">
-                <p>html</p>
-              </Badge>
+            <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+              <span>Python</span>
+              <span className="opacity-30">•</span>
+              <span>JavaScript</span>
+              <span className="opacity-30">•</span>
+              <span>React</span>
+              <span className="opacity-30">•</span>
+              <span>Machine Learning</span>
             </div>
           </div>
         </div>
