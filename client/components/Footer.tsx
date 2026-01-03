@@ -36,7 +36,7 @@ export default function Footer() {
                     const element = document.getElementById(link.id);
                     element?.scrollIntoView({ behavior: "smooth" });
                   }}
-                  className="text-sm text-muted-foreground hover:text-primary transition-colors block"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors block"
                 >
                   {link.label}
                 </button>
