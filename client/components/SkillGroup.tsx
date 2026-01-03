@@ -18,7 +18,7 @@ export default function SkillGroup({ category, skills }: SkillGroupProps) {
           <Badge
             key={skill}
             variant="outline"
-            className="px-4 py-2 text-sm font-medium border-primary/30 hover:border-primary hover:bg-primary/5 transition-colors cursor-default"
+            className="px-4 py-2 text-sm font-medium border-border text-foreground hover:bg-muted transition-colors cursor-default"
           >
             {skill}
           </Badge>
