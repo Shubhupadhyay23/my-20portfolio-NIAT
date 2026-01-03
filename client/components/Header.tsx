@@ -26,17 +26,16 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+    <header className="sticky top-0 z-50 bg-white border-b border-border">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-4">
         <div className="flex items-center justify-between">
           <div
             onClick={() => scrollToSection("hero")}
-            className="cursor-pointer group"
+            className="cursor-pointer"
           >
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Shubham
+            <h1 className="text-lg font-semibold text-foreground">
+              Shubham Upadhyay
             </h1>
-            <p className="text-xs text-muted-foreground">Full-Stack Dev</p>
           </div>
 
           {/* Desktop Navigation */}
