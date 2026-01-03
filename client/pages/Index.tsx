@@ -238,8 +238,8 @@ export default function Index() {
             </a>
           </div>
 
-          <div className="bg-muted rounded-lg p-8">
-            <h3 className="text-xl font-bold text-foreground mb-2">
+          <div className="bg-muted rounded-lg p-8 text-left">
+            <h3 className="text-lg font-semibold text-foreground mb-6">
               Contact Information
             </h3>
             <p className="text-muted-foreground mb-4">
