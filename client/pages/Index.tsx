@@ -190,7 +190,7 @@ export default function Index() {
               portfolioData.skills.competencies.map((comp) => (
                 <Badge
                   key={comp}
-                  className="bg-gradient-to-r from-primary/10 to-secondary/10 text-foreground border-primary/30 px-4 py-2 text-sm font-medium"
+                  className="bg-muted text-foreground border-border px-4 py-2 text-sm font-medium"
                 >
                   {comp}
                 </Badge>
