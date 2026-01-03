@@ -79,7 +79,7 @@ export default function Footer() {
           </p>
           <button
             onClick={scrollToTop}
-            className="p-2 bg-primary hover:bg-primary/90 text-primary-foreground rounded-lg transition-colors"
+            className="p-2 bg-foreground hover:bg-accent text-background rounded-lg transition-colors"
             aria-label="Back to top"
           >
             <ArrowUp className="w-5 h-5" />
