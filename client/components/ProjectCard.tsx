@@ -19,12 +19,12 @@ export default function ProjectCard({
   achievement,
 }: ProjectCardProps) {
   return (
-    <div className="group bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-lg hover:border-primary transition-all duration-300">
-      <div className="flex items-start justify-between mb-4">
-        <h3 className="text-xl sm:text-2xl font-bold text-foreground group-hover:text-primary transition-colors flex-1">
+    <div className="group bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-md transition-shadow duration-300">
+      <div className="flex items-start justify-between mb-6">
+        <h3 className="text-xl sm:text-2xl font-semibold text-foreground flex-1">
           {title}
         </h3>
-        <span className="text-sm font-semibold text-primary whitespace-nowrap ml-4">
+        <span className="text-sm font-medium text-muted-foreground whitespace-nowrap ml-4">
           {year}
         </span>
       </div>
