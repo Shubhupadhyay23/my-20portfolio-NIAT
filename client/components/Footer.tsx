@@ -51,7 +51,7 @@ export default function Footer() {
                 href="https://linkedin.com/in/shubham-upadhyay"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 bg-muted hover:bg-primary/10 rounded-lg text-muted-foreground hover:text-primary transition-all"
+                className="p-2 bg-muted hover:bg-muted text-muted-foreground hover:text-foreground transition-all rounded-lg"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
@@ -59,13 +59,13 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 href="https://github.com/Shubhupadhyay23"
                 target="_blank"
-                className="p-2 bg-muted hover:bg-primary/10 rounded-lg text-muted-foreground hover:text-primary transition-all"
+                className="p-2 bg-muted hover:bg-muted text-muted-foreground hover:text-foreground transition-all rounded-lg"
               >
                 <Github className="w-5 h-5" />
               </a>
               <a
                 href="mailto:ubhupendra90@gmail.com"
-                className="p-2 bg-muted hover:bg-primary/10 rounded-lg text-muted-foreground hover:text-primary transition-all"
+                className="p-2 bg-muted hover:bg-muted text-muted-foreground hover:text-foreground transition-all rounded-lg"
               >
                 <Mail className="w-5 h-5" />
               </a>
