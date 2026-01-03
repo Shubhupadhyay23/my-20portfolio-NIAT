@@ -18,7 +18,7 @@ export default function ExperienceCard({
   highlights,
 }: ExperienceCardProps) {
   return (
-    <div className="bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-md transition-shadow duration-300">
+    <div className="bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-lg transition-all duration-300 hover:translate-y-[-4px]">
       <div className="mb-6">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
           <h3 className="text-xl sm:text-2xl font-semibold text-foreground">
