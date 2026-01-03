@@ -34,8 +34,8 @@ export default function ProjectCard({
       </p>
 
       {achievement && (
-        <div className="mb-6 p-4 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg flex items-start gap-3 border border-primary/20">
-          <Award className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
+        <div className="mb-6 p-4 bg-muted rounded-lg flex items-start gap-3 border border-border">
+          <Award className="w-5 h-5 text-foreground mt-0.5 flex-shrink-0" />
           <p className="text-sm font-medium text-foreground">{achievement}</p>
         </div>
       )}
