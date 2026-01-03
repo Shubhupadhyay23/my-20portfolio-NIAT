@@ -64,7 +64,7 @@ export default function ProjectCard({
           <Badge
             key={tag}
             variant="secondary"
-            className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20"
+            className="bg-muted text-foreground border-border hover:bg-muted"
           >
             {tag}
           </Badge>
