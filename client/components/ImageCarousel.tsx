@@ -81,18 +81,18 @@ export default function ImageCarousel() {
               key={item.id}
               className="pl-4 md:basis-1/2 lg:basis-1/3"
             >
-              <div className="relative h-48 rounded-xl overflow-hidden group">
+              <div className="relative h-48 rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-lg">
                 <div
-                  className={`absolute inset-0 bg-gradient-to-br ${item.gradient} opacity-90 group-hover:opacity-100 transition-opacity duration-300`}
+                  className={`absolute inset-0 bg-gradient-to-br ${item.gradient} opacity-90 group-hover:opacity-100 transition-all duration-300`}
                 />
-                <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6">
-                  <div className="text-6xl mb-3 animate-bounce">
+                <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6 group-hover:scale-105 transition-transform duration-300">
+                  <div className="text-6xl mb-3 animate-bounce group-hover:animate-pulse">
                     {item.emoji}
                   </div>
-                  <h3 className="text-xl sm:text-2xl font-bold mb-2">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-2 group-hover:translate-y-[-4px] transition-transform duration-300">
                     {item.title}
                   </h3>
-                  <p className="text-sm sm:text-base opacity-90">
+                  <p className="text-sm sm:text-base opacity-90 group-hover:opacity-100 transition-opacity duration-300">
                     {item.description}
                   </p>
                 </div>
