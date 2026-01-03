@@ -39,7 +39,7 @@ export default function Index() {
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <Button
                 size="lg"
-                className="bg-foreground hover:bg-accent text-background rounded-full px-8 text-base font-medium transition-colors"
+                className="bg-foreground hover:bg-accent text-background rounded-full px-8 text-base font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 active:scale-95"
                 onClick={() => {
                   const element = document.getElementById("projects");
                   element?.scrollIntoView({ behavior: "smooth" });
@@ -50,7 +50,7 @@ export default function Index() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-foreground text-foreground hover:bg-muted rounded-full px-8 text-base font-medium"
+                className="border-foreground text-foreground hover:bg-muted rounded-full px-8 text-base font-medium transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95"
                 onClick={handleDownloadResume}
               >
                 Download Resume
