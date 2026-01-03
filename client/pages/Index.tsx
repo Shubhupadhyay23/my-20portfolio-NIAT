@@ -33,7 +33,9 @@ export default function Index() {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground mb-12 leading-relaxed max-w-xl animate-fade-in-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
-              Designing and building innovative solutions with cutting-edge technologies. Transforming ideas into elegant, scalable applications.
+              Designing and building innovative solutions with cutting-edge
+              technologies. Transforming ideas into elegant, scalable
+              applications.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
@@ -95,7 +97,9 @@ export default function Index() {
             </p>
 
             <div className="space-y-4 pt-8 border-t border-border mt-8">
-              <h3 className="text-lg font-semibold text-foreground mb-6">Key Stats</h3>
+              <h3 className="text-lg font-semibold text-foreground mb-6">
+                Key Stats
+              </h3>
               <div className="grid grid-cols-2 gap-6">
                 <div className="bg-muted rounded-lg p-6">
                   <p className="text-3xl font-bold text-foreground">5+</p>

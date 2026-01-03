@@ -30,7 +30,9 @@ export default function Section({
             {title}
           </h2>
           {subtitle && (
-            <p className="text-lg text-muted-foreground max-w-2xl">{subtitle}</p>
+            <p className="text-lg text-muted-foreground max-w-2xl">
+              {subtitle}
+            </p>
           )}
         </div>
         {children}

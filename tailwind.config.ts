@@ -80,7 +80,7 @@ export default {
             height: "0",
           },
         },
-        "fadeIn": {
+        fadeIn: {
           from: {
             opacity: "0",
             transform: "translateY(20px)",
@@ -90,7 +90,7 @@ export default {
             transform: "translateY(0)",
           },
         },
-        "fadeInUp": {
+        fadeInUp: {
           from: {
             opacity: "0",
             transform: "translateY(30px)",
@@ -100,7 +100,7 @@ export default {
             transform: "translateY(0)",
           },
         },
-        "slideInLeft": {
+        slideInLeft: {
           from: {
             opacity: "0",
             transform: "translateX(-30px)",
@@ -110,7 +110,7 @@ export default {
             transform: "translateX(0)",
           },
         },
-        "slideInRight": {
+        slideInRight: {
           from: {
             opacity: "0",
             transform: "translateX(30px)",
@@ -120,7 +120,7 @@ export default {
             transform: "translateX(0)",
           },
         },
-        "scaleIn": {
+        scaleIn: {
           from: {
             opacity: "0",
             transform: "scale(0.95)",
