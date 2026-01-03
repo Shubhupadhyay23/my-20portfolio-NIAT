@@ -119,10 +119,10 @@ export default function Index() {
                 key={edu.id}
                 className="bg-white border border-border rounded-lg p-6"
               >
-                <h4 className="text-lg font-bold text-foreground mb-2">
+                <h4 className="text-lg font-semibold text-foreground mb-2">
                   {edu.degree}
                 </h4>
-                <p className="text-primary font-semibold mb-1">
+                <p className="text-foreground font-medium mb-1">
                   {edu.institution}
                 </p>
                 <p className="text-sm text-muted-foreground">{edu.duration}</p>
