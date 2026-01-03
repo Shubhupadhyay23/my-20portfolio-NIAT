@@ -94,17 +94,17 @@ export default function Index() {
               cutting-edge ML research.
             </p>
 
-            <div className="space-y-4 pt-6 border-t border-border">
-              <h3 className="text-xl font-bold text-foreground">Key Stats</h3>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-primary/10 rounded-lg p-4">
-                  <p className="text-3xl font-bold text-primary">5+</p>
+            <div className="space-y-4 pt-8 border-t border-border mt-8">
+              <h3 className="text-lg font-semibold text-foreground mb-6">Key Stats</h3>
+              <div className="grid grid-cols-2 gap-6">
+                <div className="bg-muted rounded-lg p-6">
+                  <p className="text-3xl font-bold text-foreground">5+</p>
                   <p className="text-sm text-muted-foreground">
                     Major Projects
                   </p>
                 </div>
-                <div className="bg-secondary/10 rounded-lg p-4">
-                  <p className="text-3xl font-bold text-secondary">3</p>
+                <div className="bg-muted rounded-lg p-6">
+                  <p className="text-3xl font-bold text-foreground">3</p>
                   <p className="text-sm text-muted-foreground">
                     Awards & Recognition
                   </p>
