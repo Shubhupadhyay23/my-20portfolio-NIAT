@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -6,7 +6,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
 
 const engineeringImages = [
   {
@@ -56,6 +55,16 @@ const engineeringImages = [
 export default function ImageCarousel() {
   const [api, setApi] = useState();
 
+  useEffect(() => {
+    if (!api) return;
+
+    const autoplay = setInterval(() => {
+      api.scrollNext();
+    }, 4000);
+
+    return () => clearInterval(autoplay);
+  }, [api]);
+
   return (
     <div className="w-full mt-12 mb-8">
       <Carousel
@@ -65,11 +74,6 @@ export default function ImageCarousel() {
           align: "center",
           loop: true,
         }}
-        plugins={[
-          Autoplay({
-            delay: 4000,
-          }),
-        ]}
       >
         <CarouselContent className="-ml-4">
           {engineeringImages.map((item) => (
