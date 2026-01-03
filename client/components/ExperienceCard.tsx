@@ -19,12 +19,12 @@ export default function ExperienceCard({
 }: ExperienceCardProps) {
   return (
     <div className="bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-md transition-shadow duration-300">
-      <div className="mb-4">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
-          <h3 className="text-xl sm:text-2xl font-bold text-foreground">
+      <div className="mb-6">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+          <h3 className="text-xl sm:text-2xl font-semibold text-foreground">
             {title}
           </h3>
-          <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full w-fit">
+          <span className="text-sm font-medium text-muted-foreground bg-muted px-3 py-1 rounded-full w-fit">
             {duration}
           </span>
         </div>
