@@ -19,7 +19,7 @@ export default function ProjectCard({
   achievement,
 }: ProjectCardProps) {
   return (
-    <div className="group bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-lg hover:border-foreground/20 transition-all duration-300 hover:scale-105 transform">
+    <div className="group bg-white border border-border rounded-lg p-6 sm:p-8 hover:shadow-lg transition-all duration-300 hover:translate-y-[-4px]">
       <div className="flex items-start justify-between mb-6">
         <h3 className="text-xl sm:text-2xl font-semibold text-foreground flex-1">
           {title}
