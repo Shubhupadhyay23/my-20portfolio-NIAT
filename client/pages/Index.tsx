@@ -217,7 +217,7 @@ export default function Index() {
             <a href="mailto:ubhupendra90@gmail.com">
               <Button
                 size="lg"
-                className="bg-foreground hover:bg-accent text-background rounded-full px-8 text-base font-medium transition-colors w-full sm:w-auto"
+                className="bg-foreground hover:bg-accent text-background rounded-full px-8 text-base font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 active:scale-95 w-full sm:w-auto"
               >
                 <Mail className="mr-2 w-4 h-4" />
                 Send Me an Email
@@ -231,7 +231,7 @@ export default function Index() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-foreground text-foreground hover:bg-muted rounded-full px-8 text-base font-medium w-full sm:w-auto"
+                className="border-foreground text-foreground hover:bg-muted rounded-full px-8 text-base font-medium transition-all duration-300 hover:shadow-md hover:scale-105 active:scale-95 w-full sm:w-auto"
               >
                 Connect on LinkedIn
               </Button>
