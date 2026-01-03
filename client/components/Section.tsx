@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 interface SectionProps {
   id: string;
@@ -15,8 +16,14 @@ export default function Section({
   children,
   className = "",
 }: SectionProps) {
+  const ref = useScrollAnimation();
+
   return (
-    <section id={id} className={`py-20 sm:py-32 scroll-mt-20 ${className}`}>
+    <section
+      ref={ref}
+      id={id}
+      className={`py-20 sm:py-32 scroll-mt-20 opacity-0 ${className}`}
+    >
       <div className="container max-w-6xl mx-auto px-4 sm:px-6">
         <div className="mb-16">
           <h2 className="text-4xl sm:text-5xl font-semibold text-foreground mb-4">
