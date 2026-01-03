@@ -51,7 +51,7 @@ export default function ProjectCard({
                 key={idx}
                 className="text-sm text-muted-foreground flex gap-3"
               >
-                <span className="text-primary font-bold mt-0.5">•</span>
+                <span className="text-foreground font-bold mt-0.5">•</span>
                 <span>{highlight}</span>
               </li>
             ))}
