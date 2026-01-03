@@ -28,11 +28,11 @@ export default function Index() {
       <section id="hero" className="scroll-mt-20 bg-white">
         <div className="container max-w-6xl mx-auto px-4 sm:px-6 py-28 sm:py-40">
           <div className="max-w-2xl">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold text-foreground mb-8 leading-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-semibold text-foreground mb-8 leading-tight animate-fade-in-up opacity-0 [animation-delay:0.1s] [animation-fill-mode:forwards]">
               Full-Stack Developer & AI/ML Specialist
             </h1>
 
-            <p className="text-lg sm:text-xl text-muted-foreground mb-12 leading-relaxed max-w-xl">
+            <p className="text-lg sm:text-xl text-muted-foreground mb-12 leading-relaxed max-w-xl animate-fade-in-up opacity-0 [animation-delay:0.2s] [animation-fill-mode:forwards]">
               Designing and building innovative solutions with cutting-edge technologies. Transforming ideas into elegant, scalable applications.
             </p>
 
